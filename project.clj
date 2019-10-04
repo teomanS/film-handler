@@ -1,4 +1,4 @@
-(defproject film-ratings "0.1.0-SNAPSHOT"
+(defproject film-ratings "0.2.0"
   :description "FIXME: write description"
   :url "http://example.com/FIXME"
   :min-lein-version "2.0.0"
@@ -9,6 +9,8 @@
                  [duct/module.ataraxy "0.2.0"]
                  [duct/module.sql "0.4.2"]
                  [org.xerial/sqlite-jdbc "3.21.0.1"]
+                 [org.postgresql/postgresql "42.1.4"]
+                 [duct/database.sql.hikaricp "0.3.3"]
                  [hiccup "1.0.5"]]
   :plugins [[duct/lein-duct "0.10.6"]]
   :main ^:skip-aot film-ratings.main
