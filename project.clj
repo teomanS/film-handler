@@ -25,4 +25,12 @@
                   :resource-paths ["dev/resources"]
                   :dependencies   [[integrant/repl "0.3.1"]
                                    [eftest "0.5.7"]
-                                   [kerodon "0.9.0"]]}})
+                                   [kerodon "0.9.0"]
+                                   [org.clojure/clojure "1.9.0"]
+																		                 [duct/core "0.6.2"]
+																		                 [duct/module.logging "0.3.1"]
+																		                 [duct/module.web "0.6.4"]
+																		                 [duct/module.ataraxy "0.2.0"]
+																		                 [duct/module.sql "0.4.2"]
+																		                 [org.xerial/sqlite-jdbc "3.21.0.1"]
+																		                 [hiccup "1.0.5"]]}})
