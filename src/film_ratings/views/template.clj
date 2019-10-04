@@ -2,7 +2,7 @@
   (:require [hiccup.page :refer [html5 include-css include-js]]
             [hiccup.element :refer [link-to]]
             [hiccup.form :as form]))
-    
+
 (defn page
   [content]
   (html5
@@ -22,7 +22,7 @@
          (link-to {:class "py-2 text-light"} "/" "Home")]]
        [:section
         content]]]]))
-    
+
 (defn labeled-radio [group]
   (fn [checked? label]
     [:div.form-check.col

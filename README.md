@@ -1,6 +1,10 @@
 # film-ratings
 
-FIXME: description
+[![CircleCI](https://circleci.com/gh/chrishowejones/blog-film-ratings.svg?style=svg)](https://circleci.com/gh/chrishowejones/blog-film-ratings)
+
+This is an example Clojure web application written using the Duct
+framework. This code is referenced by my blog on 'Building a Clojure
+web application using Duct'.
 
 ## Developing
 
@@ -67,4 +71,4 @@ lein test
 
 ## Legal
 
-Copyright © 2019 FIXME
+Copyright © 2018 Chris Howe-Jones
